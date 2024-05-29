@@ -9,3 +9,13 @@ Buatkan server menggunakan ORM `Sequelize` dan Database `MySQL`
 4. Authentication menggunakan `bcryptjs` dan `jsonwebtoken`
 5. Authorization `SELLER` dan `BUYER` (tentukan privileges dari `SELLER` dan `BUYER`)
 6. Buat Transaksi (gunakan `Sequelize Transaction` - Optional)
+7. Buat endpoint menggunakan `Raw Query` (SELECT * FROM products)
+
+## Flow
+1. User Register
+2. User Login
+3. User Create Stores (CRUD)
+4. User Create Products (CRUD) -> (SEEDERS)
+5. User Buy Products
+6. User Transaction (include payment)
+7. User Logout
